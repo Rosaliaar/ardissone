@@ -1,0 +1,47 @@
+body{
+background-color: #bef2eb;
+}
+body{ background-image: url("IMAGENES/fondo\ pantalla2.jpg");}
+header{border-bottom-width:10px}
+footer{border-color: blue;}
+
+
+p{color:aquamarine;
+}
+P,h1{color:olivedrab;}
+h2{color:blueviolet;}
+h1{text-decoration: double;}
+p,h1,h2{text-align: center;}
+.miclase{
+background-color: coral;
+}
+body{ font-size: 0.19em; }
+
+h1{font-size: 3.5ex;}
+body{font-size: 15px;}
+
+h1{font-size: 300%;}
+h5{text-decoration: black;}
+h6{text-decoration: dashed;}
+h5{color:blueviolet;}
+h5{font-size: 300%;}
+
+<div><p>Me Encanta CSS!</p></div>
+
+div {
+width:400px; height :150px;
+background-color:fuchsia;
+border: 4px dotted;
+padding:40px;
+margin:50px;
+display: inline-table;
+text-align:center;
+}
+div p {
+display: table-cell;
+vertical-align: middle;
+font-family: impact;
+font-size: 32px;
+text-transform: 
+uppercase;
+color:mediumpurple;}
