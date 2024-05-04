@@ -3,7 +3,13 @@ background-color: #bef2eb;
 }
 body{ background-image: url("IMAGENES/fondo\ pantalla2.jpg");}
 header{border-bottom-width:10px}
-footer{border-color: blue;}
+footer{border-color: blue;
+width: 100px;
+height: 5%;
+background-color: cadetblue;
+font-family:Impact,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+font-size: small;
+}
 
 
 p{color:aquamarine;
@@ -26,12 +32,11 @@ h6{text-decoration: dashed;}
 h5{color:blueviolet;}
 h5{font-size: 300%;}
 
-<div><p>Me Encanta CSS!</p></div>
 
 div {
 width:400px; height :150px;
 background-color:fuchsia;
-border: 4px dotted;
+border: 6px dotted;
 padding:40px;
 margin:50px;
 display: inline-table;
@@ -45,3 +50,27 @@ font-size: 32px;
 text-transform: 
 uppercase;
 color:mediumpurple;}
+
+.azul {
+ background-color: blue;}
+.rojo {
+background-color: red;}
+.verde {
+background-color: green;}
+.gris {
+background-color: grey;}
+
+.Horarios.html {
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: initial;
+    width: 50px;
+    background-color: cadetblue;
+}
+
+
+
+ul{
+display: flex;
+flex-direction: row;
+}
