@@ -3,7 +3,7 @@ background-color: #bef2eb;
 }
 body{ background-image: url("IMAGENES/fondo\ pantalla2.jpg");}
 header{border-bottom-width:10px}
-footer{border-color: blue;
+footer{border-color: rgb(27, 27, 151);
 width: 100px;
 height: 5%;
 background-color: cadetblue;
@@ -69,8 +69,38 @@ background-color: grey;}
 }
 
 
-
 ul{
 display: flex;
 flex-direction: row;
+}
+
+
+/*
+.contenedor {
+    display: grid;
+    grid-template-columns: 300px 1fr 300px;
+}
+/*Estilos de media*/
+.media {
+    background-color: blue;
+    display: flex;
+  grid-template-columns: 100px 1fr 100px;
+} 
+.media {
+    display: flex;
+    flex-wrap: wrap;
+    width: 980px;
+    margin: 0 auto;
+    margin-top: 40px;
+    background-color: aquamarine;
+} 
+@media only screen and (min-width: 320 px) and (max-width 500px)
+.media {
+ background-color: ;
+    width: 100px;
+    padding-left: 23px;
+    flex-direction: column-reverse;
+}
+.cajas {
+  width: 100px
 }
