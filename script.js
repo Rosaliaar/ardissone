@@ -1,0 +1,13 @@
+let nombre = "Juan";
+let years = 30;
+console.log(years + " " + nombre);
+let numberone= 150;
+let numbertwo=30;
+let resultsuma = numberone + numbertwo;
+let resultresta = numberone - numbertwo;
+let resultmulti = numberone * numbertwo;
+let resultdivision = numberone / numbertwo;
+console.log("Suma:", resultsuma);
+console.log("Resta:", resultresta);
+console.log("Multiplicacion:", resultmulti);
+console.log("Division:", resultdivision);
